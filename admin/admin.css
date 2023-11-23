@@ -1,0 +1,124 @@
+/* Css Style Admin */
+div#widgets-right .sidebars-column-1, div#widgets-right .sidebars-column-2{
+    max-width: 100%!important;
+    width: 100%!important;
+}
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap {
+    background-color: #3a4b55;
+}
+#adminmenu .wp-has-current-submenu .wp-submenu, #adminmenu .wp-has-current-submenu .wp-submenu.sub-open, #adminmenu .wp-has-current-submenu.opensub .wp-submenu, #adminmenu a.wp-has-current-submenu:focus+.wp-submenu, .no-js li.wp-has-current-submenu:hover .wp-submenu{
+    background-color: rgba(0,0,0,.15);
+}
+#adminmenu a{
+    color: hsla(0,0%,100%,.8);
+    display: block;
+    border-left: 3px solid transparent;
+}
+#adminmenu a:hover{
+    border-left: 3px solid #43b1d6;
+    background-color: #2c3a42;
+}
+#adminmenu div.wp-menu-name {
+    color: #fff;
+}
+#adminmenu div.wp-menu-image:before{
+    color: #fff;
+}
+#wpadminbar{
+    background: #518ca3;
+}
+#wpadminbar #adminbarsearch:before, #wpadminbar .ab-icon:before, #wpadminbar .ab-item:before,#wpadminbar .ab-empty-item, #wpadminbar a.ab-item, #wpadminbar>#wp-toolbar span.ab-label, #wpadminbar>#wp-toolbar span.noticon {
+    color: #fff;
+}
+#wpwrap{
+    background: #eef1f5;
+}
+#wp-admin-bar-vnex{
+    display: none;
+}
+/* Css Logo Webseo247 */
+li#toplevel_page_acf-options-cau-hinh img{
+    width: 20px;
+    padding-top: 7px;
+}
+
+
+/*Style Image Map*/
+#wcp-form-form-control-connected_to {
+    display: none !important;
+}
+#wcp-form-form-control-static {
+    display: none !important;
+}
+/*#wcp-form-form-control-open_link_in_new_window {
+    display: none !important;
+}*/
+#wcp-form-form-control-click {
+    display: none !important;
+}
+#wcp-form-form-control-link {
+    display: block !important;
+}
+.wcp-form-tab[data-wcp-form-group="default_style"] {
+    display: none !important;
+}
+.wcp-form-tab[data-wcp-form-group="mouseover_style"] {
+    display: none !important;
+}
+.wcp-form-tab[data-wcp-form-group="tooltip"] {
+    display: none !important;
+}
+.wcp-editor-object-list-button[data-wcp-editor-object-list-button-name="copy"] {
+    display: none !important;
+}
+.wcp-editor-object-list-button[data-wcp-editor-object-list-button-name="paste"] {
+    display: none !important;
+}
+.wcp-editor-toolbar-button[data-wcp-tooltip="Text"] {
+    display: none !important;
+}
+.wcp-editor-toolbar-button[data-wcp-tooltip="Ellipse"] {
+    display: none !important;
+}
+.wcp-editor-toolbar-button[data-wcp-tooltip="Rectangle"] {
+    display: none !important;
+}
+.wcp-editor-toolbar-button[data-wcp-tooltip="Polygon"] {
+    display: none !important;
+}
+.wcp-form-tab[data-wcp-form-group="actions"] {
+    display: none !important;
+}
+.wcp-form-tab[data-wcp-form-group="layers"] {
+    display: none !important;
+}
+.wcp-form-tab[data-wcp-form-group="shapes"] {
+    display: none !important;
+}
+.wcp-form-tab[data-wcp-form-group="tooltips"] {
+    display: none !important;
+}
+.wcp-form-tab[data-wcp-form-group="shapes_menu"] {
+    display: none !important;
+}
+.wcp-form-tab[data-wcp-form-group="custom_code"] {
+    display: none !important;
+}
+#wcp-editor-button-new {
+    display: none !important;
+}
+#wcp-editor-button-load {
+    display: none !important;
+}
+.wcp-editor-main-button[data-wcp-editor-main-button-name="import"] {
+    display:  none !important;
+}
+.wcp-editor-main-button[data-wcp-editor-main-button-name="export"] {
+    display: none !important;
+}
+.wcp-editor-main-button[data-wcp-editor-main-button-name="help"] {
+    display: none !important;
+}
+#imp-editor-shape-tooltip {
+    display: none !important;
+}
