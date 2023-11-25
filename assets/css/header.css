@@ -1,0 +1,9 @@
+.header .header-wrapper .header-top {
+	z-index: 10;
+}
+
+.header .header-wrapper .header-main .logo img {
+	position: relative;
+	top: -25px;
+	z-index: 12;
+}

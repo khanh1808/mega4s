@@ -1,0 +1,34 @@
+#main .content-area .col-inner .icon-box-center .icon-box-img .icon-inner img {
+	position: relative;
+	z-index: 1;
+}
+
+#main .content-area .col-inner .banner {
+	background-color: transparent;
+}
+
+#main .content-area .col-inner .banner .banner-inner .banner-bg {
+	border-radius: 20px;
+}
+
+#main .content-area .col-inner .box-category .box-text {
+	border-radius: 20px;
+}
+
+#main .content-area .col-inner .box-category .box-text .box-text-inner .header-title {
+	margin: 0;
+}
+
+#main .content-area .col-inner .tabbed-content .nav {
+	margin-bottom: 50px;
+}
+
+#main .content-area .col-inner .tabbed-content .nav li {
+	margin-right: 120px;
+}
+
+#main .content-area .col-inner .tabbed-content .nav li a:before {
+	bottom: 0;
+	top: 100%;
+	background-color: #e1d55c;
+}
