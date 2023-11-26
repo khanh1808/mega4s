@@ -35,6 +35,31 @@
 	z-index: 12;
 }
 
+.header .header-wrapper .header-main .header-nav-main li.menu-item a {
+	font-size: 22px;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+
+.header .header-wrapper .header-main .header-nav-main li.active {
+	position: relative;
+}
+
+.header .header-wrapper .header-main .header-nav-main li.active a {
+	background-color: transparent;
+	color: #777 !important;
+	padding: 0;
+}
+
+.header .header-wrapper .header-main .header-nav-main li.active:before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 3px;
+	bottom: 0;
+	background-color: #f1e32a;
+}
+
 .header .header-wrapper .header-main .flex-col .header-nav-main .cart-item .header-button .header-cart-link {
 	background-color: #e3e3e3;
 	border: none;
