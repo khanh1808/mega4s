@@ -49,12 +49,13 @@
     margin-left: 5px;
 }
 
-.header .header-wrapper .header-main .logo img {
+.header .header-wrapper .header-main #logo img {
 	position: relative;
-	top: -25px;
+	top: -45px;
+	max-height: 140px;
 	z-index: 12;
 }
-.header .header-wrapper.stuck .header-main .logo img {
+.header .header-wrapper.stuck .header-main #logo img {
 	top: unset;
 }
 
