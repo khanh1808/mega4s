@@ -33,11 +33,11 @@
 .header .header-wrapper .header-top .top-bar-nav a {
 	flex-direction: row-reverse;
 	padding: 0 5px;
+	color: #222;
 }
 
 .header .header-wrapper .header-top .top-bar-nav a:hover {
-	background-color: #81d742;
-	border-radius: 20px;
+	color: var(--primary-color);
 }
 
 .header .header-wrapper .header-top .top-bar-nav a:hover i:before {
