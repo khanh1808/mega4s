@@ -100,3 +100,6 @@
 .header-search-form .searchform > .flex-row {
 	align-items: center;
 }
+.header-wrapper:not(.stuck) .header-main .logo-left .logo {
+	margin-right: 150px;
+}
