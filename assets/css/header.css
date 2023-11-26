@@ -1,9 +1,41 @@
 .header .header-wrapper .header-top {
 	z-index: 10;
+	padding-top: 15px;
+}
+
+.header .header-wrapper .header-top .header-search-form .flex-col input[type="search"] {
+	text-align: center;
+    min-width: 300px;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+.header .header-wrapper .header-top .header-search-form .flex-col .ux-search-submit {
+	background-color: transparent;
+	border: none;
+}
+
+.header .header-wrapper .header-top .header-search-form .flex-col .ux-search-submit i {
+	color: #555;
+	margin-top: 6px;
+    margin-left: 10px
+}
+
+.header .header-wrapper .header-top .top-bar-nav a {
+	flex-direction: row-reverse;
+}
+
+.header .header-wrapper .header-top .top-bar-nav a .header-account-title {
+	color: #000;
+    margin-left: 5px;
 }
 
 .header .header-wrapper .header-main .logo img {
 	position: relative;
 	top: -25px;
 	z-index: 12;
+}
+
+.header .header-wrapper .header-main .flex-col .header-nav-main .cart-item .header-button .header-cart-link {
+	background-color: #e3e3e3;
+	border: none;
 }
