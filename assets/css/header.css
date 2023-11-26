@@ -103,3 +103,19 @@
 .header-wrapper:not(.stuck) .header-main .logo-left .logo {
 	margin-right: 150px;
 }
+
+@media screen and (min-width: 850px) {
+	.nav_button {
+		padding: 0 10px !important;
+		height: auto !important;
+	}
+	.nav_button .nav-top-link {
+		color: #fff !important;
+	}
+	.header .header-wrapper .header-main .header-nav-main li.nav_button a {
+		color: #fff !important;
+	}
+	.header .header-wrapper .header-main .header-nav-main li.nav_button::before {
+		display: none;
+	}
+}
