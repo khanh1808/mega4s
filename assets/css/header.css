@@ -5,9 +5,13 @@
 
 .header .header-wrapper .header-top .header-search-form .flex-col input[type="search"] {
 	text-align: center;
-    min-width: 300px;
     border-radius: 20px;
-    padding: 0 20px;
+    min-width: 400px;
+    padding: 10px 20px;
+    height: auto;
+    border: none;
+    box-shadow: unset;
+    font-style: italic;
 }
 .header .header-wrapper .header-top .header-search-form .flex-col .ux-search-submit {
 	background-color: transparent;
@@ -20,7 +24,6 @@
 
 .header .header-wrapper .header-top .header-search-form .flex-col .ux-search-submit i {
 	color: #777;
-	margin-top: 6px;
 }
 
 .header .header-wrapper .header-top .header-search-form .flex-col .ux-search-submit i:hover {
@@ -71,12 +74,16 @@
 
 .header .header-wrapper .header-top .top-bar-nav a {
 	flex-direction: row-reverse;
+<<<<<<< HEAD
 	padding: 0 5px 0 0;
+=======
+	padding: 0 5px;
+	color: #222;
+>>>>>>> fd35fc6f31667c4d33bdf70e142cdd76891de1d2
 }
 
 .header .header-wrapper .header-top .top-bar-nav a:hover {
-	background-color: #81d742;
-	border-radius: 20px;
+	color: var(--primary-color);
 }
 
 .header .header-wrapper .header-top .top-bar-nav a:hover i:before {
@@ -88,10 +95,14 @@
     margin-left: 5px;
 }
 
-.header .header-wrapper .header-main .logo img {
+.header .header-wrapper .header-main #logo img {
 	position: relative;
-	top: -25px;
+	top: -45px;
+	max-height: 140px;
 	z-index: 12;
+}
+.header .header-wrapper.stuck .header-main #logo img {
+	top: unset;
 }
 
 .header .header-wrapper .header-main .header-nav-main li.menu-item a {
@@ -126,4 +137,31 @@
 
 .header .header-wrapper .header-main .flex-col .header-nav-main .cart-item .header-button .header-cart-link:hover {
 	background-color: #81d742;
+}
+.header-search-form .searchform {
+	border: 1px solid #ccc;
+	border-radius: 30px;
+	padding: 0 20px;
+}
+.header-search-form .searchform > .flex-row {
+	align-items: center;
+}
+.header-wrapper:not(.stuck) .header-main .logo-left .logo {
+	margin-right: 150px;
+}
+
+@media screen and (min-width: 850px) {
+	.nav_button {
+		padding: 0 10px !important;
+		height: auto !important;
+	}
+	.nav_button .nav-top-link {
+		color: #fff !important;
+	}
+	.header .header-wrapper .header-main .header-nav-main li.nav_button a {
+		color: #fff !important;
+	}
+	.header .header-wrapper .header-main .header-nav-main li.nav_button::before {
+		display: none;
+	}
 }
