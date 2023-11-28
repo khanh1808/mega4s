@@ -1,5 +1,5 @@
 .header .header-wrapper .header-top {
-	z-index: 10;
+	z-index: 11;
 	padding-top: 15px;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .header .header-wrapper .header-top .top-bar-nav .header-language-dropdown {
-	margin: 0;
+	margin: 0 20px 0;
 }
 
 .header-language-dropdown > .nav-dropdown > li > a .icon-image {
