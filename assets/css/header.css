@@ -53,7 +53,7 @@
 
 .header-language-dropdown > .nav-dropdown {
 	padding: 0;
-    min-width: unset;
+    min-width: 40px;
     border-radius: 5px !important;
     left: 0 !important;
 }
