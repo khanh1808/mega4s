@@ -167,8 +167,8 @@
 
 @media screen and (max-width: 768px) {
 	.mobile-nav .cart-item .header-cart-link {
-		background-color: unset;
-		border: none;
+		background-color: unset !important;
+		border: none !important;
 	}
 	#logo {
 		max-width: 50%;
