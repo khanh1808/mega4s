@@ -95,16 +95,6 @@
     margin-left: 5px;
 }
 
-.header .header-wrapper .header-main #logo img {
-	position: relative;
-	top: -45px;
-	max-height: 140px;
-	z-index: 12;
-}
-.header .header-wrapper.stuck .header-main #logo img {
-	top: unset;
-}
-
 .header .header-wrapper .header-main .header-nav-main li.menu-item a {
 	font-size: 18px;
 	text-transform: capitalize;
@@ -148,6 +138,15 @@
 }
 
 @media screen and (min-width: 850px) {
+	.header .header-wrapper .header-main #logo img {
+		position: relative;
+		top: -45px;
+		max-height: 140px;
+		z-index: 12;
+	}
+	.header .header-wrapper.stuck .header-main #logo img {
+		top: unset;
+	}
 	.header-wrapper:not(.stuck) .header-main .logo-left .logo {
 	  	margin-right: 150px;
 	}
