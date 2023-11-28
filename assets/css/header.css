@@ -79,8 +79,6 @@
 }
 
 .header .header-wrapper .header-top .top-bar-nav a {
-/*	flex-direction: row-reverse;*/
-	padding: 0 5px 0 0;
 	color: #222;
 }
 
