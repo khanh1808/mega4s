@@ -164,3 +164,13 @@
 		display: none;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.mobile-nav .cart-item .header-cart-link {
+		background-color: unset;
+		border: none;
+	}
+	#logo {
+		max-width: 50%;
+	}
+}
