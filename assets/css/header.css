@@ -1,8 +1,13 @@
 .header .header-wrapper .header-top {
-	z-index: 11;
+	z-index: unset;
 	padding-top: 15px;
 }
-
+.header-bg-container.fill {
+	display: none !important;
+}
+#masthead.header-main {
+	z-index: unset;
+}
 .header .header-wrapper .header-top .header-search-form .flex-col input[type="search"] {
 	text-align: center;
     border-radius: 20px;
